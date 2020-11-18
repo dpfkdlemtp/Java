@@ -1,5 +1,5 @@
  
-# tring,StringBuilder, StringBuffer 의 차이 (성능, 문법)
+# String, StringBuilder, StringBuffer 의 차이 (성능, 문법)
 ---------------
 
 
