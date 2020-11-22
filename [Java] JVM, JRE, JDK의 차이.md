@@ -1,5 +1,6 @@
 ## [Java] JVM, JRE, JDK의 차이
 
+
 ### JVM
 
 JVM은 자바 가상 머신(Java Virtual Machine)의 약자이다.
@@ -38,6 +39,7 @@ JDK는 JRE와 개발을 위해 필요한 도구(javac, java 등)들을 포함한
 ![img](https://t1.daumcdn.net/cfile/tistory/2232C53C5731E7EC17)
 
 [그림출처][https://jusungpark.tistory.com/13]
+
 
 JVM을 사용하기 위한 라이브러리가 JRE이며, 일반적인 자바 프로그램을 실행하기 위해 사용되는 것이 JRE이다. 
 
