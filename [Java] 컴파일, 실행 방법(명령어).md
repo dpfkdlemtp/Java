@@ -6,7 +6,7 @@ cmd 창에서 자바 파일을 컴파일하고, 실행하는 방법에 대해 �
 
 파일의 이름은 aa.java이다.
 
-![image-20201122162515190](C:\Users\Hatae\AppData\Roaming\Typora\typora-user-images\image-20201122162515190.png)
+![A](https://github.com/dpfkdlemtp/JavaStudy/blob/image/aajava.png)
 
 
 
