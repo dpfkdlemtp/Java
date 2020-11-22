@@ -12,7 +12,7 @@ cmd 창에서 자바 파일을 컴파일하고, 실행하는 방법에 대해 �
 
 경로는 F:\Java\src에 파일을 생성하였다. 
 
-![image-20201122163314758](C:\Users\Hatae\AppData\Roaming\Typora\typora-user-images\image-20201122163314758.png)
+![B](https://github.com/dpfkdlemtp/JavaStudy/blob/image/srcdir1.png)
 
 
 
@@ -20,7 +20,7 @@ cmd 창에서 자바 파일을 컴파일하고, 실행하는 방법에 대해 �
 
 간단하게 해당 폴더의 경로 창에 cmd를 입력하면 해당 경로로 설정된 cmd 창이 열린다.
 
-![image-20201122163400474](C:\Users\Hatae\AppData\Roaming\Typora\typora-user-images\image-20201122163400474.png)
+![C](https://github.com/dpfkdlemtp/JavaStudy/blob/image/cmd1.png)
 
 
 
@@ -28,13 +28,13 @@ cmd 창에서 자바 파일을 컴파일하고, 실행하는 방법에 대해 �
 
 javac aa.java 명령어를 통해 aa.java 파일을 컴파일하여 aa.class 파일을 생성한다.
 
-![image-20201122163508801](C:\Users\Hatae\AppData\Roaming\Typora\typora-user-images\image-20201122163508801.png)
+![image-20201122163508801](https://github.com/dpfkdlemtp/JavaStudy/blob/image/cmd2.png)
 
 
 
 잠시 기다리면 aa.claass 파일이 생성된다.
 
-![image-20201122162442212](C:\Users\Hatae\AppData\Roaming\Typora\typora-user-images\image-20201122162442212.png)
+![image-20201122162442212](https://github.com/dpfkdlemtp/JavaStudy/blob/image/srcdir2.png)
 
 
 
@@ -44,7 +44,7 @@ java aa 명령어를 통해 aa.class 파일을 실행한다.
 
 실행하면, Hello world! 문자열이 출력된다.
 
-![image-20201122162500493](C:\Users\Hatae\AppData\Roaming\Typora\typora-user-images\image-20201122162500493.png)
+![image-20201122162500493](https://github.com/dpfkdlemtp/JavaStudy/blob/image/cmd3.png)
 
 
 
