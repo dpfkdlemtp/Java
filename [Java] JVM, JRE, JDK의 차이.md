@@ -40,7 +40,7 @@ JDK는 JRE와 개발을 위해 필요한 도구(javac, java 등)들을 포함한
 
 [그림출처][https://jusungpark.tistory.com/13]
 
-
+<br>
 JVM을 사용하기 위한 라이브러리가 JRE이며, 일반적인 자바 프로그램을 실행하기 위해 사용되는 것이 JRE이다. 
 
 JDK는 JRE를 포함하고 있으며, 컴파일러와 디버거 등이 포함된 버전이다. 개발자는 JDK를 설치해야한다.
