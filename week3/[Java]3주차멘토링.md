@@ -437,7 +437,7 @@ public class Main {
 객체를 만들기 위해 클래스를 정의하고, 클래스에 대한 인스턴스를 만들었다.
 
 ```Java
-class Calculator {
+class Calculator2 {
     static double PI = 3.14; // static을 멤버 앞에 붙이면 클래스의 멤버가 된다.
     static int base = 0; // 클래스 변수
     int left, right;
@@ -481,7 +481,7 @@ public class CalculatorDemo2 {
 클래스 변수가 있다면 클래스 메서드도 있다. 위의 예제에서 굳이 인스턴스가 left와 right값을 항상 유지하고 있어야할 이유가 없다. 합계나 평균을 구할 때마다 좌항과 우항의 값을 주는 방식으로 계산을 할 수도 있다.
 
 ```Java
-class Calculator{
+class Calculator3{
     public static void sum(int left, int right){ // 클래스 메서드
         System.out.println(left+right);
     } 
