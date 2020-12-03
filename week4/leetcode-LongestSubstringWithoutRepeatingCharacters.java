@@ -30,10 +30,6 @@ class Solution {
                 }
                 count=1;
                 sb.setLength(0);
-                if(i>=s.length()) {
-                    if(!c.equals(s.substring(i,i+1))) count++;
-                    break;
-                }
                 c=s.substring(i,i+1);
             }
             if(count>ans) ans=count;
