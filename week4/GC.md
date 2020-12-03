@@ -48,12 +48,6 @@ GC의 동작방식을 이해하기 위해서는 자바의 메모리 영역에 �
 
 
 
-- Card Table
-
-Old 영역에 Card table을 두고 Old 영역의 객체가 Young 영역의 객체를 참조하는 경우, 카드 테이블에 표시한다. Minor GC를 실행할 때에는 Old 영역의 모든 객체의 참조를 확인하지 않고, 카드 테이블을 확인한다.
-
-
-
 - Mnior GC
 
 Young 영역에 GC가 발생할 경우 이를 Minor GC라고 한다. Young 영역은 Eden과 Survivor라는 영역으로 나누어진다.
@@ -78,6 +72,10 @@ Serial GC, Parallel GC, Parallel Old GC, Concurrent Mark & Sweep GC(CMS) 등
 
 *Full GC는 속도가 매우 느리고, Full GC가 발생하는 순간 자바 어플리케이션이 멈춘다.(Stop-the-world) 따라서 Full GC는 성능과 안정성에 아주 큰 영향을 미친다.
 
+
+- Card Table
+
+Old 영역에 Card table을 두고 Old 영역의 객체가 Young 영역의 객체를 참조하는 경우, 카드 테이블에 표시한다. Minor GC를 실행할 때에는 Old 영역의 모든 객체의 참조를 확인하지 않고, 카드 테이블을 확인한다.
 
 
 - GC와 성능
