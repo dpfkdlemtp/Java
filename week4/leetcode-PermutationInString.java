@@ -11,7 +11,6 @@ class Solution {
     static Map<Character, Integer> map=new HashMap();
 
     public static void mapadd(Character c, Integer i){
-        
         int val=map.getOrDefault(c,0)+i;
         map.put(c,val);
         if (val == 0) {
@@ -26,12 +25,10 @@ class Solution {
             mapadd(s1.charAt(i),1);
             mapadd(s2.charAt(i),-1);
         }
-        System.out.println(map);
         if(map.size()==0) return true;
         for(int i=s1.length();i<s2.length();i++){
             mapadd(s2.charAt(i-s1.length()), 1);
             mapadd(s2.charAt(i),-1);
-            System.out.println(map);
             if(map.size()==0)   return true;
         }
 
