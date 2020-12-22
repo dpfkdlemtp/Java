@@ -56,7 +56,7 @@ Restful API는 REST의 특징을 지키면서 API를 제공하는 것이다.
 
 POSTMAN을 활용하여 OpenAPI를 호출해보자. 
 
-http://httpbin.org는 다음과 같이 다양한 OpenAPI를 제공한다.
+http://httpbin.org 는 다음과 같이 다양한 OpenAPI를 제공한다.
 
 - http://httpbin.org/ip Origin IP를 반환
 - http://httpbin.org/user-agent user-agent를 반환
@@ -68,17 +68,17 @@ http://httpbin.org는 다음과 같이 다양한 OpenAPI를 제공한다.
 
 
 
-http://httpbin.org/get에 GET 방식으로 key가 test이고, value가 hello인 값을 전송하였다. "args": { "test": "hello"}가 출력된다.
+http://httpbin.org/get 에 GET 방식으로 key가 test이고, value가 hello인 값을 전송하였다. "args": { "test": "hello"}가 출력된다.
 
 ![oa1.PNG](https://github.com/dpfkdlemtp/JavaStudy/blob/image/oa1.PNG?raw=true)
 
 
 
-http://httpbin.org/user-agent를 GET 방식으로 전송하였다. "user-agent": { "PostmanRuntime/7.26.8"}가 출력된다.
+http://httpbin.org/user-agent 를 GET 방식으로 전송하였다. "user-agent": { "PostmanRuntime/7.26.8"}가 출력된다.
 
 ![oa1.PNG](https://github.com/dpfkdlemtp/JavaStudy/blob/image/oa2.PNG?raw=true)
 
-http://httpbin.org/post에 POST 방식으로 key가 OpenAPI이고, value가 WoW인 값을 전송하였다. "args": { "OpenAPI": "WoW"}가 출력된다.
+http://httpbin.org/post 에 POST 방식으로 key가 OpenAPI이고, value가 WoW인 값을 전송하였다. "args": { "OpenAPI": "WoW"}가 출력된다.
 
 ![oa1.PNG](https://github.com/dpfkdlemtp/JavaStudy/blob/image/oa3.PNG?raw=true)
 
