@@ -10,7 +10,7 @@ AOP는 Aspect Oriented Programming의 약자로 관점 지향 프로그래밍이
 
 AOP에서 각 관점을 기준으로 로직을 모듈화하는 것은 코드를 부분적으로 나누어서 모듈화하겠다는 의미이다. 이때, 소스 코드상에서 다른 부분에 계속 반복해서 쓰는 코드들을 발견할 수 있는데 이를 흩어진 관심사(Crosscutting Concerns)라 부른다.
 
-![https://t1.daumcdn.net/cfile/tistory/994AA3335C1B8C9D28](file:///C:/Users/82106/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)
+![aop1.png](https://github.com/dpfkdlemtp/JavaStudy/blob/image/aop1.png?raw=true)
 
 위와 같이 흩어진 관심사를 Aspect로 모듈화하고 핵심적인 비즈니스 로직에서 분리하여 재사용 하는 것이 AOP의 목적이다.
 
@@ -53,33 +53,33 @@ AOP를 적용하기 위한 예제는 Maven으로 작성된 Spring 오픈소스�
 
 https://github.com/spring-projects/spring-petclinic에서 받을 수 있다. URL을 복사하고, 
 
-![https://blog.kakaocdn.net/dn/tW1zr/btqCkP10ab5/Ks5Xwf4YzxdkWIXSfqCK41/img.png](file:///C:/Users/82106/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png)
+![aop2.png](https://github.com/dpfkdlemtp/JavaStudy/blob/image/aop2.png?raw=true)
 
  
 
 IntelliJ – VCS – Get from Version Control에서 복사한 URL을 입력한다.
 
-![https://blog.kakaocdn.net/dn/c6kINl/btqCimM05KZ/cquZ2EOAeYHwKK6EVv3chk/img.png](file:///C:/Users/82106/AppData/Local/Temp/msohtmlclip1/01/clip_image005.png)
+![aop3.png](https://github.com/dpfkdlemtp/JavaStudy/blob/image/aop3.png?raw=true)
 
-![https://blog.kakaocdn.net/dn/QvmpX/btqCjeVxxkd/AIym11XaKBhQkrpSKCMuiK/img.png](file:///C:/Users/82106/AppData/Local/Temp/msohtmlclip1/01/clip_image007.png)
+![aop4.png](https://github.com/dpfkdlemtp/JavaStudy/blob/image/aop4.png?raw=true)
 
  
 
 그 후, Terminal에서 프로젝트를 빌드하기 위해 mvnw package 명령어를 입력한다.
 
-![https://blog.kakaocdn.net/dn/btECFJ/btqCim0BCHj/GWXrcq4ySzNEqKa2qJGIEk/img.png](file:///C:/Users/82106/AppData/Local/Temp/msohtmlclip1/01/clip_image009.png)
+![aop5.png](https://github.com/dpfkdlemtp/JavaStudy/blob/image/aop5.png?raw=true)
 
  
 
 BUILD SUCCESS가 나오면, 완료된 것이다.
 
-![https://blog.kakaocdn.net/dn/C4WEG/btqCgnMEubU/ULtp4gZt1ZDHk2XKlQ1fc0/img.png](file:///C:/Users/82106/AppData/Local/Temp/msohtmlclip1/01/clip_image011.png)
+![aop6.png](https://github.com/dpfkdlemtp/JavaStudy/blob/image/aop6.png?raw=true)
 
  
 
 Main – java – PetClinicApplication 을 실행한다.
 
-![https://blog.kakaocdn.net/dn/PtnlK/btqCgSySEGI/jSE5oKSc351gXF8NfQJlJ0/img.png](file:///C:/Users/82106/AppData/Local/Temp/msohtmlclip1/01/clip_image013.png)
+![aop7.png](https://github.com/dpfkdlemtp/JavaStudy/blob/image/aop7.png?raw=true)
 
  
 
