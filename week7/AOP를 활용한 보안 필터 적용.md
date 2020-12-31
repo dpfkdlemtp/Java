@@ -133,7 +133,7 @@ Main – java – PetClinicApplication 을 실행한다.
 
 SQL 인젝션은 코드 인젝션의 한 기법으로 클라이언트의 입력 값을 조작하여 서버의 데이터베이스를 공격할 수 있는 공격방식을 말한다. 주로 사용자가 입력한 데이터를 제대로 필터링, 이스케이핑하지 못했을 경우에 발생한다.
 
-Ex) SELECT user FROM user_table WHERE id='admin' AND password=' <span style="color:red">**' OR '1' = '1**</';
+Ex) SELECT user FROM user_table WHERE id='admin' AND password=' <span style="color:red"> **' OR '1' = '1** </span>';
 
  
 
